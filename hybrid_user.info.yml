@@ -1,0 +1,8 @@
+name: Hybrid User
+description: Hybrid User Module.
+dependencies:
+  - rest
+  - eck
+package: Hybrid User
+type: module
+core: 8.x

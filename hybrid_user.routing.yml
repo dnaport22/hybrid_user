@@ -1,0 +1,7 @@
+hybrid_user.rest_api:
+  path: 'hybrid_user/api'
+  defaults:
+    _controller: '\Drupal\hybrid_user\Gateway\rest\RequestHandler::handleRequest'
+  methods: [POST, GET]
+  requirements:
+    _access: 'TRUE'

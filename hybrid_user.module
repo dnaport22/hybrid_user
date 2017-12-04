@@ -1,0 +1,28 @@
+<?php
+
+// For HybridUser class to use while comparing.
+define("R", "required");
+
+// Name of the entity type targeting.
+define("ENTITY", "twist_user");
+
+// Name of the entity bundle.
+define("BUNDLE", "profile");
+
+/**
+ * Fields required for entity.
+ *
+ * $field[0] = name of the field
+ * $field[1] = required or optional
+ */
+$fields = array(
+    ["field_uuid", "required"],
+    ["field_summary", "optional"],
+    ["field_location", "optional"],
+    ["field_job_title", "optional"],
+    ["field_interested_in", "optional"],
+    ["field_company", "optional"],
+    );
+
+// Setting the field structure to be used by the program.
+define("FIELDS", serialize($fields));
