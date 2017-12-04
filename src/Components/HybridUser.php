@@ -19,7 +19,7 @@ class HybridUser {
     private $responseHandler;
 
     /**
-     * TwistUser constructor.
+     * HybridUser constructor.
      */
     public function __construct() {
         $this->entity = \Drupal::entityTypeManager();
